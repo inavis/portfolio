@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f7bee266.css",
+    "main.js": "/portfolio/static/js/main.bd967039.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/me-gif-1.gif": "/portfolio/static/media/me-gif-1.48caace57478577354e7.gif",
+    "static/media/Sivani-EU-resume.pdf": "/portfolio/static/media/Sivani-EU-resume.9f4dd1375845bf6f5fea.pdf",
+    "static/media/Computer networking.png": "/portfolio/static/media/Computer networking.b9f614cd4bcc339549d9.png",
+    "static/media/Express-js.png": "/portfolio/static/media/Express-js.1491b270343be8f8f5d2.png",
+    "static/media/work-art-2.jpg": "/portfolio/static/media/work-art-2.65d1d4aeb60589b3a61b.jpg",
+    "static/media/Backup and Restore.png": "/portfolio/static/media/Backup and Restore.dc16e60d6e36ee430582.png",
+    "static/media/work-art-4.jpg": "/portfolio/static/media/work-art-4.cc9de905afd5cdaa8934.jpg",
+    "static/media/work-art-5.jpg": "/portfolio/static/media/work-art-5.268445827157d3896003.jpg",
+    "static/media/work-art-9.jpg": "/portfolio/static/media/work-art-9.d8b87f2a869c04beb54c.jpg",
+    "static/media/ui-design.png": "/portfolio/static/media/ui-design.606a3eb7e3f3f936637f.png",
+    "static/media/developer.png": "/portfolio/static/media/developer.08156449801e5135d042.png",
+    "static/media/cross.png": "/portfolio/static/media/cross.f0a470098d46caa88834.png",
+    "static/media/react.svg": "/portfolio/static/media/react.c72ce64de766e6250f92c78beda7a973.svg",
+    "static/media/amazon-aws.svg": "/portfolio/static/media/amazon-aws.baac1b5fc32e790934b7a1b37d43400a.svg",
+    "static/media/css-alt.svg": "/portfolio/static/media/css-alt.58407b1a22829cec87e3f68488c3d739.svg",
+    "static/media/jquery.svg": "/portfolio/static/media/jquery.ccb19d9899de8aec31439197564fc9f6.svg",
+    "static/media/redux.svg": "/portfolio/static/media/redux.043f4f0802c532abb26575a30ef2b473.svg",
+    "static/media/node-js.svg": "/portfolio/static/media/node-js.a28fdaa344781d93e1260a2e71748174.svg",
+    "static/media/mongodb.svg": "/portfolio/static/media/mongodb.26eed64d7a7edd3b23163d3f43401e0e.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.145db708fc62be95bd0bbf264a768527.svg",
+    "static/media/adobe-illustrator.svg": "/portfolio/static/media/adobe-illustrator.802bd403b0f4f40dd4a760555c9f221f.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.b14342a289d07d16b61d31c1f468ea1a.svg",
+    "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.a35bd7c42c6a04ca08d4a5744c1bb4dd.svg",
+    "static/media/adobe.svg": "/portfolio/static/media/adobe.13eef7a08fd3fcf3682274c2cc2f2417.svg",
+    "index.html": "/portfolio/index.html",
+    "main.f7bee266.css.map": "/portfolio/static/css/main.f7bee266.css.map",
+    "main.bd967039.js.map": "/portfolio/static/js/main.bd967039.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7bee266.css",
+    "static/js/main.bd967039.js"
+  ]
+}
