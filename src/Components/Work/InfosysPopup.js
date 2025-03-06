@@ -21,9 +21,9 @@ function InfosysPopup() {
       </div>
       <div className="section-2">
         <div>
-          <p className="text-left text-light-navy">
+          <p className="text-left text-white">
             <br />
-            <span className="text-white">Tech Stack:</span>
+            Tech Stack:
             <br />
             HTML, CSS, Anugular JS, Bootstrap, MySQL
           </p>

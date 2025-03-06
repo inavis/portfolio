@@ -21,8 +21,8 @@ function GuviPopup() {
       </div>
       <div className="section-2">
         <div>
-          <p className="text-left text-light-navy">
-            <span className="text-white">Tech Stack:</span>
+          <p className="text-left text-white">
+            Tech Stack:
             <br />
             HTML, CSS, Javascript, ReactJS, NodeJS, MongoDB, ExpressJS
             <br />
@@ -92,8 +92,19 @@ function GuviPopup() {
 
             <div>
               <p className="text-left text-white">Others:</p>
+              <p>
+                Banner on obesity-{" "}
+                <a
+                  href="https://obesity-banner1.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-light-navy"
+                >
+                  https://obesity-banner1.netlify.app/
+                </a>
+              </p>
               <p className="text-left text-light-navy">
-                Display Movies website
+                Display Movies website-{" "}
                 <a
                   href="https://movie-details-react-try.netlify.app"
                   target="_blank"
@@ -104,7 +115,7 @@ function GuviPopup() {
                 </a>
               </p>
               <p className="text-left text-light-navy">
-                Thirukural website{" "}
+                Thirukural website-{" "}
                 <a
                   href="https://thirukural-tamil-english.netlify.app"
                   target="_blank"
@@ -115,7 +126,7 @@ function GuviPopup() {
                 </a>
               </p>
               <p className="text-left text-light-navy">
-                Get Logo from website name{" "}
+                Get Logo from website name-{" "}
                 <a
                   href="https://icon-from-website.netlify.app"
                   target="_blank"

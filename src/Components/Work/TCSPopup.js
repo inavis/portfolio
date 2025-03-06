@@ -28,9 +28,9 @@ function TCSPopup() {
             , Configuring, deployment of Cisco devices, dffferent cloud and
             server environments
           </p>
-          <p className="text-left text-light-navy">
+          <p className="text-left text-white">
             <br />
-            <span className="text-white">Tech Stack:</span>
+            Tech Stack:
             <br />
             HTML, CSS, Javascript, AWS, Actifio, Opsview, Cisco
           </p>

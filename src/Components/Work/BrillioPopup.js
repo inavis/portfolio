@@ -25,70 +25,70 @@ function BrillioPopup() {
             <span className="text-white">Projects</span> include{" "}
             <div className="project-list">
               <a
-                className="text-light-navy"
+                className="text-white"
                 href="https://www.bromsite.com/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <nobr>Bromsite </nobr>
               </a>
-              ,
+              ,&nbsp;
               <a
-                className="text-light-navy"
+                className="text-white"
                 href="https://www.cequa.com/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <nobr>Cequa </nobr>
               </a>
-              ,
+              ,&nbsp;
               <a
-                className="text-light-navy"
+                className="text-white"
                 href="https://www.cequapro.com/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <nobr>CequaPro </nobr>
               </a>
-              ,
+              ,&nbsp;
               <a
-                className="text-light-navy"
+                className="text-white"
                 href="https://www.levulan.com/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <nobr>levulan </nobr>
               </a>
-              ,
+              ,&nbsp;
               <a
-                className="text-light-navy"
+                className="text-white"
                 href="https://www.levulanhcp.com/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <nobr>levulan hcp </nobr>
               </a>
-              ,
+              ,&nbsp;
               <a
-                className="text-light-navy"
+                className="text-white"
                 href="https://www.ilumya.com/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <nobr>ilumya </nobr>
               </a>
-              ,
+              ,&nbsp;
               <a
-                className="text-light-navy"
+                className="text-white"
                 href="https://www.ilumyapro.com/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <nobr>ilumya pro </nobr>
               </a>
-              ,
+              ,&nbsp;
               <a
-                className="text-light-navy"
+                className="text-white"
                 href="https://www.odomzo.com/"
                 rel="noreferrer"
                 target="_blank"
@@ -99,9 +99,9 @@ function BrillioPopup() {
             and varoius other sites of{" "}
             <span className="text-crossmint-green">Sun Pharma</span>.
           </p>
-          <p className="text-left text-light-navy">
+          <p className="text-left text-white">
             <br />
-            <span className="text-white">Tech Stack:</span>
+            Tech Stack:
             <br />
             React JS, CSS, SCSS, Jquery, Javascript, Bootstrap, AEM
           </p>
