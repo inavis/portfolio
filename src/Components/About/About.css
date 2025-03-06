@@ -6,6 +6,7 @@
 #about .text-section {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 #about .text-section p {
@@ -15,11 +16,11 @@
 }
 
 #about .text-section .sub1 {
-  flex: 0 0 50%;
+  flex: 0 0 40%;
 }
 
 #about .text-section .sub2 {
-  flex: 0 0 50%;
+  flex: 0 0 40%;
 }
 
 #about .text-section .sub2 li {
