@@ -30,7 +30,7 @@ header .hamburger img {
   header .nav .section {
     display: flex;
     gap: 30px;
-    padding: 10px 0;
+    padding: 10px;
     justify-content: flex-end;
   }
 }
