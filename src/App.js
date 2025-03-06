@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header/Header";
+import Banner from "./Components/Banner/Banner";
+import About from "./Components/About/About";
+import Skills from "./Components/Skills/Skills";
+import Work from "./Components/Work/Work";
+import CTA from "./Components/CTA/CTA";
+import CV from "./Components/CV/CV";
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import StateProvider from "./Context";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StateProvider>
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          <Banner />
+          <About />
+          <Skills />
+          <Work />
+          <CTA />
+          <CV />
+        </div>
+      </BrowserRouter>
+    </StateProvider>
   );
 }
 
