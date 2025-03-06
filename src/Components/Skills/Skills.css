@@ -77,7 +77,6 @@
 
   #skills .technical .tile {
     flex: 0 0 60%;
-    font-size: 18px;
   }
   #skills .technical .tile .text {
     padding-top: 15px;
