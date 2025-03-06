@@ -70,16 +70,18 @@ header .hamburger img {
   }
 
   header .menu a {
-    width: 100%;
     font-weight: 800;
     font-size: 25px !important;
-    padding: 10px 0;
+    padding: 20px 0;
     text-decoration: none;
     text-transform: uppercase;
+    border-bottom: 1px solid white;
+    width: 50%;
   }
 
   header .menu.open {
     right: 0;
     top: 0;
+    padding-top: 100px;
   }
 }
