@@ -130,6 +130,9 @@ function Work() {
               </div>
             );
           })}
+          <p className="text-white font-16">
+            *click on each tile to learn more
+          </p>
         </div>
       </div>
     </section>
