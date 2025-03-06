@@ -1,0 +1,149 @@
+import React from "react";
+import "./Skills.css";
+import SectionTitle from "../SectionTitle/SectionTitle";
+import Marquee from "../Marquee/Marquee";
+import htmlIcon from "../../Images/html.svg";
+import cssIcon from "../../Images/css-alt.svg";
+import jsIcon from "../../Images/javascript.svg";
+import reactIcon from "../../Images/react.svg";
+import reduxIcon from "../../Images/redux.svg";
+import bootstrapIcon from "../../Images/bootstrap.svg";
+import jqueryIcon from "../../Images/jquery.svg";
+import materialIcon from "../../Images/materialUI-logo.png";
+import expressIcon from "../../Images/Express-js.png";
+import nodeIcon from "../../Images/node-js.svg";
+import mongoIcon from "../../Images/mongodb.svg";
+import adobeIcon from "../../Images/adobe.svg";
+import networkIcon from "../../Images/Computer networking.png";
+import backupIcon from "../../Images/Backup and Restore.png";
+import actifioIcon from "../../Images/actifio-logo.png";
+import awsIcon from "../../Images/amazon-aws.svg";
+import illustratorIcon from "../../Images/adobe-illustrator.svg";
+
+function Skills() {
+  let skills = [
+    {
+      text: "HTML",
+      icon: htmlIcon,
+      skillDescription: "https://html.spec.whatwg.org/",
+    },
+    {
+      text: "CSS",
+      icon: cssIcon,
+      skillDescription: "https://www.w3.org/Style/CSS/Overview.en.html",
+    },
+    {
+      text: "JavaScript",
+      icon: jsIcon,
+      skillDescription: "https://zh.wikipedia.org/wiki/w:JavaScript",
+    },
+    {
+      text: "ReactJS",
+      icon: reactIcon,
+      skillDescription: "https://react.dev/",
+    },
+    {
+      text: "Redux",
+      icon: reduxIcon,
+      skillDescription: "https://redux.js.org/",
+    },
+    {
+      text: "Bootstrap",
+      icon: bootstrapIcon,
+      skillDescription: "https://getbootstrap.com/",
+    },
+    {
+      text: "Jquery",
+      icon: jqueryIcon,
+      skillDescription: "https://jquery.com/",
+    },
+    {
+      text: "MaterialUI",
+      icon: materialIcon,
+      skillDescription:
+        "https://mui.com/material-ui/?srsltid=AfmBOoqRqU8V7p1J5TC6S_AufvJdaLGYEHF7pixLTqUOelmH6QCCm8KR",
+    },
+    {
+      text: "ExpressJS",
+      icon: expressIcon,
+      skillDescription: "https://expressjs.com/",
+    },
+    {
+      text: "NodeJS",
+      icon: nodeIcon,
+      skillDescription: "https://nodejs.org/en",
+    },
+    {
+      text: "MongoDB",
+      icon: mongoIcon,
+      skillDescription: "https://www.mongodb.com/",
+    },
+    {
+      text: "Amazon Web Services",
+      icon: awsIcon,
+      skillDescription: "https://aws.amazon.com/",
+    },
+    {
+      text: "Adobe Experience Manager (Content Management System)",
+      icon: adobeIcon,
+      skillDescription:
+        "https://business.adobe.com/products/experience-manager/adobe-experience-manager.html",
+    },
+    {
+      text: "Actifio (Enterprise Cloud Data Management)",
+      icon: actifioIcon,
+      skillDescription: "https://www.actifio.com/",
+    },
+    {
+      text: "Networking (Cisco)",
+      icon: networkIcon,
+      skillDescription: "https://en.wikipedia.org/wiki/Computer_network",
+    },
+    {
+      text: "Backup & Restore",
+      icon: backupIcon,
+      skillDescription: "https://www.ibm.com/think/topics/backup-and-restore",
+    },
+    {
+      text: "Adobe Illustrator",
+      icon: illustratorIcon,
+      skillDescription: "https://www.adobe.com/products/illustrator.html",
+    },
+  ];
+
+  //combining the text from above object using reducer to add to marquee
+  const [combinedText, setCombinedText] = React.useState(
+    skills.reduce((combined, obj) => {
+      return combined + " • " + obj.text;
+    }, "")
+  );
+
+  return (
+    <section id="skills">
+      <SectionTitle mainText={"Skills"} subText={"Technical"} type={"1"} />
+      <div className={`container technical`}>
+        {skills.map(({ text, icon, skillDescription }, index) => {
+          return (
+            <div
+              key={`${text}-${index}`}
+              className={`tile tile-${text.toLowerCase()}`}
+            >
+              <img src={icon} alt={text} className="icon" />
+              <div
+                className="text"
+                onClick={() => {
+                  window.open(skillDescription);
+                }}
+              >
+                {text}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <Marquee content={combinedText} />
+    </section>
+  );
+}
+
+export default Skills;

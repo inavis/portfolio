@@ -1,0 +1,155 @@
+#work {
+  background-color: var(--light-navy);
+  padding: 35px 0 80px 0;
+}
+
+#work .tab {
+  font-size: 24px;
+  font-family: cursive;
+  text-transform: capitalize;
+  color: var(--white);
+  margin: 30px 20px 50px 20px;
+  padding-bottom: 5px;
+}
+
+#work .tab.active {
+  border-bottom: 5px solid var(--navy);
+  color: var(--navy) !important;
+}
+
+#work .professional-data,
+#work .training-data,
+#work .internship-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#work .professional-data .tile,
+#work .training-data .tile,
+#work .internship-data .tile {
+  flex: 0 33%;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  transition: 0.5s all ease;
+}
+
+#work .training-data .tile {
+  flex: 0 0 50%;
+}
+
+#work .internship-data .tile {
+  flex: 0 0 50%;
+}
+
+#work .professional-data .tile:hover,
+#work .training-data .tile:hover,
+#work .internship-data .tile:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+#work .professional-data .tile1,
+#work .training-data .tile1,
+#work .internship-data .tile1 {
+  height: 323px;
+  background-image: linear-gradient(rgba(0, 8, 255, 0.5), rgba(5, 72, 110, 0.5)),
+    url("../../Images/work-art-2.jpg");
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#work .training-data .tile1 {
+  background-image: linear-gradient(rgba(0, 8, 255, 0.5), rgba(5, 72, 110, 0.5)),
+    url("../../Images/work-art-5.jpg");
+}
+
+#work .internship-data .tile1 {
+  background-image: linear-gradient(rgba(0, 8, 255, 0.5), rgba(5, 72, 110, 0.5)),
+    url("../../Images/work-art-4.jpg");
+}
+
+#work .professional-data .tile2,
+#work .training-data .tile2,
+#work .internship-data .tile2 {
+  height: 323px;
+  background-image: linear-gradient(rgba(0, 8, 255, 0.5), rgba(5, 72, 110, 0.5)),
+    url("../../Images/work-art-9.jpg");
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#work .professional-data .tile1 .text,
+#work .training-data .tile1 .text,
+#work .internship-data .tile1 .text {
+  position: relative;
+  top: 200px;
+  left: 20px;
+  color: var(--white);
+}
+
+#work .training-data .tile1 .text {
+  left: -30px;
+  top: 120px;
+}
+
+#work .professional-data .tile2 .text,
+#work .training-data .tile2 .text,
+#work .internship-data .tile2 .text {
+  position: relative;
+  float: right;
+  top: 200px;
+  right: 20px;
+  color: var(--white);
+}
+
+#work h3 {
+  font-size: 30px;
+}
+
+#work h4 {
+  font-size: 20px;
+  color: var(--teal);
+}
+
+#work h3,
+#work h4 {
+  margin: 0;
+}
+
+#work .all-data {
+  width: 100%;
+}
+
+#work .all-data .professional-data,
+#work .all-data .training-data,
+#work .all-data .internship-data {
+  display: inline-block;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  #work .tab {
+    margin: 10px;
+  }
+
+  #work .professional-data,
+  #work .training-data,
+  #work .internship-data {
+    display: inline-block;
+    width: 100%;
+  }
+
+  #work .professional-data .tile,
+  #work .training-data .tile,
+  #work .internship-data .tile {
+    margin: 30px;
+  }
+
+  #work .internship-data .tile1 {
+    background-size: 100% 100%;
+  }
+}
