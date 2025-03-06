@@ -12,6 +12,7 @@ function BrillioPopup() {
           <a
             href="https://www.brillio.com/"
             target="_blank"
+            rel="noreferrer"
             className="text-crossmint-green"
           >
             Brillio Technologies
@@ -26,6 +27,7 @@ function BrillioPopup() {
               <a
                 className="text-light-navy"
                 href="https://www.bromsite.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <nobr>Bromsite </nobr>
@@ -34,6 +36,7 @@ function BrillioPopup() {
               <a
                 className="text-light-navy"
                 href="https://www.cequa.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <nobr>Cequa </nobr>
@@ -42,6 +45,7 @@ function BrillioPopup() {
               <a
                 className="text-light-navy"
                 href="https://www.cequapro.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <nobr>CequaPro </nobr>
@@ -50,6 +54,7 @@ function BrillioPopup() {
               <a
                 className="text-light-navy"
                 href="https://www.levulan.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <nobr>levulan </nobr>
@@ -58,6 +63,7 @@ function BrillioPopup() {
               <a
                 className="text-light-navy"
                 href="https://www.levulanhcp.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <nobr>levulan hcp </nobr>
@@ -66,6 +72,7 @@ function BrillioPopup() {
               <a
                 className="text-light-navy"
                 href="https://www.ilumya.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <nobr>ilumya </nobr>
@@ -74,6 +81,7 @@ function BrillioPopup() {
               <a
                 className="text-light-navy"
                 href="https://www.ilumyapro.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <nobr>ilumya pro </nobr>
@@ -82,6 +90,7 @@ function BrillioPopup() {
               <a
                 className="text-light-navy"
                 href="https://www.odomzo.com/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <nobr>Odomzo </nobr>

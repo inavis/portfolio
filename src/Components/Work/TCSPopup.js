@@ -12,6 +12,7 @@ function TCSPopup() {
           <a
             href="https://www.tcs.com/"
             target="_blank"
+            rel="noreferrer"
             className="text-crossmint-green"
           >
             Tata Consultancy Services

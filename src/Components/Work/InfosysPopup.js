@@ -12,6 +12,7 @@ function InfosysPopup() {
           <a
             href="https://infosysmysore.in/"
             target="_blank"
+            rel="noreferrer"
             className="text-crossmint-green"
           >
             Infosys

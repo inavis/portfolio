@@ -12,7 +12,7 @@ import InfosysPopup from "./InfosysPopup";
 function Work() {
   let sectionClass = ["all", "professional", "training", "internship"];
   const [activeTab, setActiveTab] = React.useState(1);
-  let { popupOpen, openPopup, closePopup } = useContext(StateContext);
+  let { popupOpen, openPopup } = useContext(StateContext);
   const [popupData, setPopupData] = React.useState("");
   console.log(popupOpen);
 

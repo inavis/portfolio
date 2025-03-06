@@ -12,6 +12,7 @@ function GuviPopup() {
           <a
             href="https://www.guvi.in/"
             target="_blank"
+            rel="noreferrer"
             className="text-crossmint-green"
           >
             Guvi Geeks
@@ -40,6 +41,7 @@ function GuviPopup() {
                 <a
                   href="https://for-the-love-of-food.netlify.app/"
                   target="_blank"
+                  rel="noreferrer"
                   className="text-light-navy"
                 >
                   https://for-the-love-of-food.netlify.app/
@@ -50,6 +52,7 @@ function GuviPopup() {
                 <a
                   href="https://github.com/inavis/receipe-crud-mockapi"
                   target="_blank"
+                  rel="noreferrer"
                   className="text-light-navy"
                 >
                   https://github.com/inavis/receipe-crud-mockapi
@@ -75,6 +78,7 @@ function GuviPopup() {
                 <a
                   href="https://github.com/inavis/video-converter-electron"
                   target="_blank"
+                  rel="noreferrer"
                   className="text-light-navy"
                 >
                   https://github.com/inavis/video-converter-electron
@@ -93,6 +97,7 @@ function GuviPopup() {
                 <a
                   href="https://movie-details-react-try.netlify.app"
                   target="_blank"
+                  rel="noreferrer"
                   className="text-light-navy"
                 >
                   https://movie-details-react-try.netlify.app
@@ -103,6 +108,7 @@ function GuviPopup() {
                 <a
                   href="https://thirukural-tamil-english.netlify.app"
                   target="_blank"
+                  rel="noreferrer"
                   className="text-light-navy"
                 >
                   https://thirukural-tamil-english.netlify.app
@@ -113,6 +119,7 @@ function GuviPopup() {
                 <a
                   href="https://icon-from-website.netlify.app"
                   target="_blank"
+                  rel="noreferrer"
                   className="text-light-navy"
                 >
                   https://icon-from-website.netlify.app
@@ -123,6 +130,7 @@ function GuviPopup() {
                 <a
                   href="https://gif-generator-giphy.netlify.app"
                   target="_blank"
+                  rel="noreferrer"
                   className="text-light-navy"
                 >
                   https://gif-generator-giphy.netlify.app
