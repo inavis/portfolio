@@ -1,0 +1,51 @@
+#cta .social-links {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  position: fixed;
+}
+
+#cta .social-links .icon {
+  width: max-content;
+  padding: 8px;
+  background-color: teal;
+  cursor: pointer;
+}
+
+#cta .social-links .icon svg {
+  color: var(--white);
+  width: 20px;
+  height: 20px;
+}
+
+#cta .social-links .icon:nth-child(1) {
+  background-color: var(--linkedinBlue);
+}
+
+#cta .social-links .icon:nth-child(2) {
+  background-color: var(--black);
+}
+
+#cta .social-links .icon:nth-child(3) {
+  background-color: var(--pinterestRed);
+}
+
+#cta .social-links .icon:nth-child(4) {
+  background-color: var(--nandor);
+}
+
+#cta .social-links .icon:nth-child(5) {
+  background-color: var(--whatsappGreen);
+}
+
+#cta .social-links .icon:nth-child(6) {
+  background-color: var(--redCrimson);
+}
+
+@media (max-width: 767px) {
+  #cta .social-links {
+    top: 60%;
+  }
+}
