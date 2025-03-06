@@ -1,0 +1,43 @@
+.basic-button button {
+  background-image: linear-gradient(
+    to right,
+    #02aab0 0%,
+    #00cdac 51%,
+    #02aab0 100%
+  );
+}
+.basic-button button {
+  margin: 10px 0;
+  padding: 5px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-family: cursive;
+}
+
+.basic-button button img {
+  width: 30px;
+  height: auto;
+  width: 100%;
+}
+
+.basic-button button:hover {
+  background-position: right center;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .basic-button {
+    display: flex;
+    justify-content: center;
+  }
+}
