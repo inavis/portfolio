@@ -5,23 +5,11 @@ import expandIcon from "../../Images/ui-design.png";
 import collapseIcon from "../../Images/developer.png";
 function Header() {
   const [openMenu, setOpenMenu] = React.useState(false);
-  const [width, setWidth] = React.useState(window.innerWidth);
-
-  const handleWidth = () => {
-    setWidth(window.innerWidth);
-  };
 
   const handleMenu = () => {
     setOpenMenu(!openMenu);
   };
 
-  React.useEffect(() => {
-    window.addEventListener("resize", handleWidth);
-
-    return () => {
-      window.removeEventListener("resize", handleWidth);
-    };
-  }, []);
   return (
     <header className="w-100">
       <div className="nav container">
@@ -32,9 +20,10 @@ function Header() {
         </div>
         <div className={`section menu ${openMenu ? "open" : ""}`}>
           <Link
-            to={"#home"}
+            to={"#"}
             smooth
             className="trans-btn text-white font-16 text-decoration-none"
+            onClick={handleMenu}
           >
             Home
           </Link>
@@ -42,6 +31,7 @@ function Header() {
             to={"#about"}
             smooth
             className="trans-btn text-white font-16 text-decoration-none"
+            onClick={handleMenu}
           >
             About
           </Link>
@@ -49,6 +39,7 @@ function Header() {
             to={"#skills"}
             smooth
             className="trans-btn text-white font-16 text-decoration-none"
+            onClick={handleMenu}
           >
             Skills
           </Link>
@@ -56,6 +47,7 @@ function Header() {
             to={"#work"}
             smooth
             className="trans-btn text-white font-16 text-decoration-none"
+            onClick={handleMenu}
           >
             Work
           </Link>
@@ -63,6 +55,7 @@ function Header() {
             to={"#cv"}
             smooth
             className="trans-btn text-white font-16 text-decoration-none"
+            onClick={handleMenu}
           >
             CV
           </Link>
