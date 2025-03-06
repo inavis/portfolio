@@ -16,14 +16,16 @@ function Banner() {
             I specialize in building dynamic and responsive user interfaces with
             a keen eye for design and performance.
           </h3>
-          <Link to="#about">
-            <Button
-              text={"About Me"}
-              iconPath={RightArrow}
-              iconAlt={"arrow"}
-              customClass={"text-center-tab w-100"}
-            />
-          </Link>
+          <div className="w-100">
+            <Link to="#about">
+              <Button
+                text={"About Me"}
+                iconPath={RightArrow}
+                iconAlt={"arrow"}
+                customClass={"text-center-tab w-100"}
+              />
+            </Link>
+          </div>
         </div>
         <div className="image-section">
           <img src={Gif1} alt="my photos with filters" />
