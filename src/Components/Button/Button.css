@@ -20,7 +20,7 @@
   color: white;
   border-radius: 10px;
   border: none;
-  font-family: "Poppins", sans-serif;
+  font-family: cursive;
 }
 
 .basic-button button img {
@@ -39,5 +39,9 @@
   .basic-button {
     display: flex;
     justify-content: center;
+  }
+
+  .basic-button button {
+    font-size: 24px;
   }
 }
