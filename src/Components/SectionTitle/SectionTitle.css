@@ -24,14 +24,8 @@
   color: #3a4a5e;
 }
 
-.section-title.type2 h1 {
-}
-
 .section-title.type1 p {
   color: var(--white);
-}
-
-.section-title.type2 p {
 }
 
 @media (max-width: 992px) {
@@ -42,5 +36,15 @@
   .section-title p {
     top: -50px;
     opacity: 0.5;
+  }
+}
+
+@media (max-width: 350px) {
+  .section-title.type1 p {
+    font-size: 15px;
+  }
+
+  .section-title.type1 h1 {
+    font-size: 30px;
   }
 }
