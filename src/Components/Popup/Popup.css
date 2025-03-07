@@ -1,6 +1,11 @@
+.popup-template {
+  display: flex;
+  justify-content: center;
+}
+
 .popup-template .modal {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   position: fixed;
   z-index: 101;
   top: -200%;
@@ -124,7 +129,7 @@
   }
 
   .popup-template .work-popup .section-1 {
-    top: -35px;
+    top: -10px;
   }
 
   .popup-template .modal .modal-content {

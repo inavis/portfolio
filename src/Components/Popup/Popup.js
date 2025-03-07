@@ -7,7 +7,7 @@ function Popup({ children }) {
   let { popupOpen, closePopup } = useContext(StateContext);
   return (
     <div className={`popup-template ${popupOpen ? "active" : ""}`}>
-      <div className="overlay"></div>
+      <div className="overlay" onClick={closePopup}></div>
       <div className="modal">
         <div className="modal-content">
           <div className="w-100">
