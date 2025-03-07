@@ -20,6 +20,11 @@
   margin-bottom: 10px;
 }
 
+#banner .image-section img {
+  width: 100%;
+  height: auto;
+}
+
 #banner a {
   text-decoration: none;
 }
