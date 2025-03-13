@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Translator refrences- (But max of 250 keywords limit):
+https://www.geeksforgeeks.org/multi-language-support-in-reactjs/
+https://react.i18next.com/latest/using-with-hooks
+
+Localizing translation:
+https://www.locize.com/blog/react-i18next
