@@ -1,12 +1,12 @@
-function BrillioPopup() {
+function BrillioPopup({ translate }) {
   return (
     <div className="d-flex work-popup">
       <div className="section-1">
         <p className="text-left date text-crossmint-green">
-          March 2022 to till date
+          {translate("work.brillio.popup.date")}
         </p>
         <h3 className="text-left role text-crossmint-green">
-          Senior Engineer (Frontend)
+          {translate("work.brillio.popup.title")}
         </h3>
         <h3 className="text-left company">
           <a
@@ -15,14 +15,17 @@ function BrillioPopup() {
             rel="noreferrer"
             className="text-crossmint-green"
           >
-            Brillio Technologies
+            {translate("work.brillio.name")}
           </a>
         </h3>
       </div>
       <div className="section-2">
         <div>
           <p className="text-left  text-light-navy projects">
-            <span className="text-white">Projects</span> include{" "}
+            <span className="text-white">
+              {translate("work.brillio.popup.text1")}
+            </span>{" "}
+            {translate("work.brillio.popup.text2")}{" "}
             <div className="project-list">
               <a
                 className="text-white"
@@ -96,37 +99,34 @@ function BrillioPopup() {
                 <nobr>Odomzo </nobr>
               </a>
             </div>
-            and varoius other sites of{" "}
+            {translate("work.brillio.popup.text3")}{" "}
             <span className="text-crossmint-green">Sun Pharma</span>.
           </p>
           <p className="text-left text-white">
             <br />
-            Tech Stack:
+            {translate("work.brillio.popup.tech.title")}
             <br />
-            React JS, CSS, SCSS, Jquery, Javascript, Bootstrap, AEM
+            {translate("work.brillio.popup.tech.skills")}
           </p>
         </div>
         <div className="responsibilities">
-          <h4 className="text-left text-white">Responsibilities:</h4>
+          <h4 className="text-left text-white">
+            {translate("work.brillio.popup.responsibility.title")}:
+          </h4>
           <p className="text-left text-light-navy">
-            • Efficiently analyze, estimate, and develop responsive front-end
-            components using scripting languages.
+            • {translate("work.brillio.popup.responsibility.res1")}
           </p>
           <p className="text-left text-light-navy">
-            • Developing components with multimedia, animations, maps, and other
-            functionalities as per design requirements.
+            • {translate("work.brillio.popup.responsibility.res2")}
           </p>
           <p className="text-left text-light-navy">
-            • Implement front-end changes to enhance analytics and SEO
-            performance.
+            • {translate("work.brillio.popup.responsibility.res3")}
           </p>
           <p className="text-left text-light-navy">
-            • Serve as the primary point of contact for issues, requests, and
-            discussions.
+            • {translate("work.brillio.popup.responsibility.res4")}
           </p>
           <p className="text-left text-light-navy">
-            • Manage front-end issues, DevOps tasks, builds, deployments, and
-            quality checks as required.
+            • {translate("work.brillio.popup.responsibility.res5")}
           </p>
         </div>
       </div>

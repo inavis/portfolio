@@ -9,12 +9,11 @@ import BrillioPopup from "./BrillioPopup";
 import GuviPopup from "./GuviPopup";
 import InfosysPopup from "./InfosysPopup";
 
-function Work() {
-  let sectionClass = ["all", "professional", "training", "internship"];
+function Work({ translate }) {
+  let sectionClassKey = ["work.tab1", "work.tab2", "work.tab3", "work.tab4"];
   const [activeTab, setActiveTab] = React.useState(1);
   let { popupOpen, openPopup } = useContext(StateContext);
   const [popupData, setPopupData] = React.useState("");
-  console.log(popupOpen);
 
   const handleTab = (index) => {
     setActiveTab(index);
@@ -23,16 +22,24 @@ function Work() {
   function ProfessionalData() {
     return (
       <div className="professional-data">
-        <div className="tile tile1" onClick={() => setPopupData(BrillioPopup)}>
+        <div
+          className="tile tile1"
+          onClick={() => setPopupData(<BrillioPopup translate={translate} />)}
+        >
           <div className="text">
-            <h3 className="text-left">Senior Engineer</h3>
-            <h4 className="text-left">Brillio Technologies</h4>
+            <h3 className="text-left">
+              {translate("work.brillio.designation")}
+            </h3>
+            <h4 className="text-left">{translate("work.brillio.name")}</h4>
           </div>
         </div>
-        <div className="tile tile2" onClick={() => setPopupData(TCSPopup)}>
+        <div
+          className="tile tile2"
+          onClick={() => setPopupData(<TCSPopup translate={translate} />)}
+        >
           <div className="text">
-            <h3 className="text-right">Engineer</h3>
-            <h4 className="text-right">Tata Consultancy Services</h4>
+            <h3 className="text-right">{translate("work.tcs.designation")}</h3>
+            <h4 className="text-right">{translate("work.tcs.name")}</h4>
           </div>
         </div>
       </div>
@@ -42,15 +49,18 @@ function Work() {
   function TrainingData() {
     return (
       <div className="training-data">
-        <div className="tile tile1" onClick={() => setPopupData(GuviPopup)}>
+        <div
+          className="tile tile1"
+          onClick={() => setPopupData(<GuviPopup translate={translate} />)}
+        >
           <div className="text">
-            <h3 className="text-right">
-              Full Stack <br className="d-block d-lg-none" />
-              Developer
-              <br />
-              (Trainee)
-            </h3>
-            <h4 className="text-right">Guvi Geeks</h4>
+            <h3
+              className="text-right"
+              dangerouslySetInnerHTML={{
+                __html: translate("work.guvi.designation"),
+              }}
+            ></h3>
+            <h4 className="text-right">{translate("work.guvi.name")}</h4>
           </div>
         </div>
       </div>
@@ -60,7 +70,10 @@ function Work() {
   function InternshipData() {
     return (
       <div className="internship-data">
-        <div className="tile tile1" onClick={() => setPopupData(InfosysPopup)}>
+        <div
+          className="tile tile1"
+          onClick={() => setPopupData(<InfosysPopup translate={translate} />)}
+        >
           <div className="text">
             <h3 className="text-left">Intern</h3>
             <h4 className="text-left">Infosys</h4>
@@ -98,13 +111,13 @@ function Work() {
     <section id="work">
       <Popup>{popupData}</Popup>
       <SectionTitle
-        mainText={"Experience"}
-        subText={"All Of My Works"}
+        mainText={translate("work.mainTitle")}
+        subText={translate("work.subTitle")}
         type={"1"}
       />
       <div className="container">
         <div className="tabs">
-          {sectionClass.map((text, index) => {
+          {sectionClassKey.map((text, index) => {
             return (
               <button
                 className={`trans-btn tab ${
@@ -113,13 +126,13 @@ function Work() {
                 key={`trans-btn-${index}`}
                 onClick={() => handleTab(index)}
               >
-                {text}
+                {translate(text)}
               </button>
             );
           })}
         </div>
         <div className="content">
-          {sectionClass.map((text, index) => {
+          {sectionClassKey.map((text, index) => {
             return (
               <div
                 key={`${text}`}
@@ -130,9 +143,7 @@ function Work() {
               </div>
             );
           })}
-          <p className="text-white font-16">
-            *click on each tile to learn more
-          </p>
+          <p className="text-white font-16">{translate("work.disclaimer")}</p>
         </div>
       </div>
     </section>

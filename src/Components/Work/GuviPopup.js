@@ -1,12 +1,12 @@
-function GuviPopup() {
+function GuviPopup({ translate }) {
   return (
     <div className="d-flex work-popup guvi-popup">
       <div className="section-1">
         <p className="text-left date text-crossmint-green">
-          September 2021 to March 2022
+          {translate("work.guvi.popup.date")}
         </p>
         <h3 className="text-left role text-crossmint-green">
-          Full Stack Developer | Student Trainee
+          {translate("work.guvi.popup.title")}
         </h3>
         <h3 className="text-left company">
           <a
@@ -15,16 +15,16 @@ function GuviPopup() {
             rel="noreferrer"
             className="text-crossmint-green"
           >
-            Guvi Geeks
+            {translate("work.guvi.name")}
           </a>
         </h3>
       </div>
       <div className="section-2">
         <div>
           <p className="text-left text-white">
-            Tech Stack:
+            {translate("work.guvi.popup.tech.title")}:
             <br />
-            HTML, CSS, Javascript, ReactJS, NodeJS, MongoDB, ExpressJS
+            {translate("work.guvi.popup.tech.skills")}
             <br />
           </p>
         </div>
@@ -151,21 +151,20 @@ function GuviPopup() {
           </div>
         </div>
         <div className="responsibilities">
-          <h4 className="text-left text-white">Responsibilities:</h4>
+          <h4 className="text-left text-white">
+            {translate("work.guvi.popup.responsibility.title")}:
+          </h4>
           <p className="text-left text-light-navy">
-            • Trained on Project based Full Stack Development Program in MERN
+            • {translate("work.guvi.popup.responsibility.res1")}
           </p>
           <p className="text-left text-light-navy">
-            • Deeper understanding of Client Side Programming by developing
-            highly responsive web pages
+            • {translate("work.guvi.popup.responsibility.res2")}
           </p>
           <p className="text-left text-light-navy">
-            • Designing back end development by building multi-user web
-            applications using NodeJS framework and MongoDb
+            • {translate("work.guvi.popup.responsibility.res3")}
           </p>
           <p className="text-left text-light-navy">
-            • Knowledge on developer tools such as Git and deploying web
-            applications onto web servers.
+            • {translate("work.guvi.popup.responsibility.res4")}
           </p>
         </div>
       </div>

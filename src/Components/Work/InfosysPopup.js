@@ -1,12 +1,12 @@
-function InfosysPopup() {
+function InfosysPopup({ translate }) {
   return (
     <div className="d-flex work-popup">
       <div className="section-1">
         <p className="text-left date text-crossmint-green">
-          January 2019 to May 2019
+          {translate("work.infy.popup.date")}
         </p>
         <h3 className="text-left role text-crossmint-green">
-          Intern (Developer)
+          {translate("work.infy.popup.title")}
         </h3>
         <h3 className="text-left company">
           <a
@@ -15,7 +15,7 @@ function InfosysPopup() {
             rel="noreferrer"
             className="text-crossmint-green"
           >
-            Infosys
+            {translate("work.infy.name")}
           </a>
         </h3>
       </div>
@@ -23,19 +23,20 @@ function InfosysPopup() {
         <div>
           <p className="text-left text-white">
             <br />
-            Tech Stack:
+            {translate("work.infy.popup.tech.title")}:
             <br />
-            HTML, CSS, Anugular JS, Bootstrap, MySQL
+            {translate("work.infy.popup.tech.skills")}
           </p>
         </div>
         <div className="responsibilities">
-          <h4 className="text-left text-white">Responsibilities:</h4>
+          <h4 className="text-left text-white">
+            {translate("work.infy.popup.responsibility.title")}:
+          </h4>
           <p className="text-left text-light-navy">
-            • Training and assessments on multiple technologies.
+            • {translate("work.infy.popup.responsibility.res1")}
           </p>
           <p className="text-left text-light-navy">
-            • Developed projects to integrate multi login system to handle data
-            on multiple paltforms
+            • {translate("work.infy.popup.responsibility.res2")}
           </p>
         </div>
       </div>
