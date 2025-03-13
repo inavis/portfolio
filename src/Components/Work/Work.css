@@ -1,6 +1,7 @@
 #work {
   background-color: var(--light-navy);
   padding: 35px 0 80px 0;
+  scroll-margin-top: 60px;
 }
 
 #work .tab {
@@ -132,6 +133,10 @@
 }
 
 @media (max-width: 992px) {
+  #work {
+    scroll-margin-top: 30px;
+  }
+
   #work .tab {
     margin: 10px;
   }

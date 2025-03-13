@@ -12,3 +12,9 @@
 #cv a {
   text-decoration: none;
 }
+
+@media (max-width: 400px) {
+  #cv .basic-button button {
+    max-width: 70%;
+  }
+}

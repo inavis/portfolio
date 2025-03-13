@@ -1,6 +1,7 @@
 #about {
   background-color: var(--light-navy);
   padding: 50px 0 80px 0;
+  scroll-margin-top: 60px;
 }
 
 #about .text-section {
@@ -33,18 +34,21 @@
 #about .text-section .sub2 li p:first-child {
   color: #3a4a5e;
   font-weight: 800;
-  width: 20%;
+  width: 45%;
+  word-break: break-all;
 }
 
 #about .text-section .sub2 li p:nth-child(2) {
   color: var(--white);
   font-weight: 500;
-  width: 80%;
+  width: 55%;
+  word-break: break-all;
 }
 
 @media (max-width: 992px) {
   #about {
     padding: 50px 30px 50px 30px;
+    scroll-margin-top: 30px;
   }
 
   #about .text-section {
@@ -60,10 +64,10 @@
   }
 
   #about .text-section .sub2 li p:first-child {
-    width: 30%;
+    width: 40%;
   }
 
   #about .text-section .sub2 li p:nth-child(2) {
-    width: 70%;
+    width: 60%;
   }
 }
